@@ -32,13 +32,13 @@
 </template>
 
 <script>
-    import AppLayout from '@/Layouts/AppLayout'
-    export default {
-        components: {
-            AppLayout,
-        },
-        props: {
-            note: Object
-        }
+import AppLayout from '@/Layouts/AppLayout'
+export default {
+    components: {
+        AppLayout,
+    },
+    props: {
+        note: Object
     }
+}
 </script>
